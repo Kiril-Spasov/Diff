@@ -18,8 +18,6 @@ namespace Diff
             string path = Application.StartupPath + @"\diff.txt";
             StreamReader streamReader = new StreamReader(path);
 
-            bool finished = false;
-
             int pairsCount = Convert.ToInt32(streamReader.ReadLine());
 
             for (int i = 1; i <= pairsCount; i++)
